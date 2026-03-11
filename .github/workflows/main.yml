@@ -1,0 +1,14 @@
+name: Mujtaba
+
+on:
+  push: 
+    branches: [ main ]
+
+jobs:
+  demo:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Asking people
+        run: echo "hey user"
+      
